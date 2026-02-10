@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tiger-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tiger
+  template:
+    metadata:
+      labels:
+        app: tiger
+    spec:
+      containers:
+      - name: tiger-container
+        image: tuo-utente-docker/tiger-app:latest
