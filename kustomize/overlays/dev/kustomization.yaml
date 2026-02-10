@@ -4,4 +4,4 @@ resources:
   - deployment.yaml
 images:
   - name: giacomo12305/tiger-app
-    newTag: '3'
+    newTag: '4'
