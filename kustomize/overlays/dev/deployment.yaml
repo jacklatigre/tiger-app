@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: tiger-container
-        image: tuo-utente-docker/tiger-app:latest
+        image: giacomo12305/tiger-app:latest
