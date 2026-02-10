@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         // ⚠️ CAMBIA QUESTO col tuo vero username di Docker Hub
-        DOCKER_USER = "giacomo1" 
+        DOCKER_USER = "giacomo12305" 
         IMAGE_NAME = "tiger-app"
         // ⚠️ CAMBIA QUESTO col link al tuo repo (senza https://)
         REPO_URL = "github.com/jacklatigre/tiger-app.git"
