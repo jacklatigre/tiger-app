@@ -4,4 +4,4 @@ resources:
   - deployment.yaml
 images:
   - name: tuo-utente-docker/tiger-app
-    newTag: '1'
+    newTag: '3'
