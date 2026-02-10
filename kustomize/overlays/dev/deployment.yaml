@@ -15,3 +15,4 @@ spec:
       containers:
       - name: tiger-container
         image: giacomo12305/tiger-app:latest
+        command: ["/bin/sh", "-c", "exit 1"] # Questo forza il crash immediato
