@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
   - deployment.yaml
 images:
-  - name: tuo-utente-docker/tiger-app
+  - name: giacomo12305/tiger-app
     newTag: '3'
