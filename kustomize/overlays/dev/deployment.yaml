@@ -15,10 +15,10 @@ spec:
       containers:
       - name: tiger-container
         image: giacomo12305/tiger-app:latest
-resources:
-  requests:
-    memory: "256Mi"
-    cpu: "500m"  # Metà di una CPU core
-  limits:
-    memory: "512Mi"
-    cpu: "1000m" # Un core intero
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "500m"
+          limits:
+            memory: "512Mi"
+            cpu: "1000m"
