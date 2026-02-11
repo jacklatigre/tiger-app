@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
   - deployment.yaml
+  - security/service-account.yaml
   - security/role.yaml           # <-- Percorso aggiornato
   - security/role-binding.yaml   # <-- Percorso aggiornato
 
