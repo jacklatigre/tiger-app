@@ -12,6 +12,7 @@ spec:
       labels:
         app: tiger
     spec:
+      serviceAccountName: tiger-operator
       containers:
       - name: tiger-container
         image: giacomo12305/tiger-app:latest
