@@ -6,7 +6,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: tiger-operator
-  namespace: tiger-secure
+  namespace: default
 roleRef:
   kind: Role
   name: pod-reader
